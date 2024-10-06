@@ -1,0 +1,7 @@
+module:com.example.labadeniska
+com.example.labadeniska
+com.example.labadeniska.controllers
+com.example.labadeniska.dao
+com.example.labadeniska.models
+com.example.labadeniska.Service
+com.example.labadeniska.utils
