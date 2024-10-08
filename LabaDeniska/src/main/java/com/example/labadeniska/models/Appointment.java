@@ -19,6 +19,10 @@ public class Appointment {
         this.dateTime = dateTime;
     }
 
+    public Appointment() {
+        this(0, 0, 0, LocalDateTime.now());
+    }
+
 
     public long getId() {
         return id;

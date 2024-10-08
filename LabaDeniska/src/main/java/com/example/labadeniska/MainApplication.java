@@ -13,12 +13,27 @@ import java.sql.SQLException;
 import java.util.Locale;
 import java.util.Properties;
 import java.util.ResourceBundle;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.Locale;
+import java.util.Properties;
+import java.util.ResourceBundle;
 
 /**
  * Главный класс приложения, отвечающий за запуск и отображение интерфейса приложения
  */
 public class MainApplication extends Application {
 
+    private static final Logger logger = LoggerFactory.getLogger(MainApplication.class);
     private static Connection connection;
     private static Stage mainStage;
 
@@ -27,6 +42,7 @@ public class MainApplication extends Application {
         try (InputStream input = this.getClass().getResourceAsStream("/statements.properties")) {
             property.load(input);
         } catch (IOException e) {
+            logger.error("Ошибка загрузки properties файла", e);
             throw new RuntimeException(e);
         }
     }
@@ -39,6 +55,7 @@ public class MainApplication extends Application {
     @Override
     public void stop() throws Exception {
         if (connection != null) {
+            logger.info("Завершение работы приложения");
             super.stop();
         }
     }
@@ -70,7 +87,9 @@ public class MainApplication extends Application {
     public void start(Stage stage) throws IOException {
         try {
             connection = DBHelper.getConnection();
+            logger.info("Успешное подключение к базе данных");
         } catch (SQLException e) {
+            logger.error("Ошибка подключения к базе данных", e);
             System.out.println("Ошибка подключение к базе данных! " + e.getMessage());
         }
         this.mainStage = stage;
@@ -83,6 +102,8 @@ public class MainApplication extends Application {
         stage.setTitle("LabaDeniska");
         stage.setScene(scene);
         stage.show();
+
+        logger.info("Главное окно приложения запущено");
     }
 
     /**
@@ -91,6 +112,7 @@ public class MainApplication extends Application {
      * @param args Аргументы командной строки
      */
     public static void main(String[] args) {
+        logger.info("Запуск приложения");
         launch();
     }
 }

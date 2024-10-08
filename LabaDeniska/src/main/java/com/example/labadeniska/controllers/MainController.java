@@ -41,6 +41,7 @@ public class MainController {
             LoggerFactory.getLogger(MainApplication.class);
 
     static Properties property = new Properties();
+
     {
         try (InputStream input = this.getClass().getResourceAsStream("/statements.properties")) {
             property.load(input);
@@ -88,7 +89,6 @@ public class MainController {
     void onPatient(ActionEvent event) throws IOException {
         logger.info("Была нажата кнопка onRoute");
         try {
-          //  Locale.setDefault(Locale.FRANCE);
             ResourceBundle bundle = ResourceBundle.getBundle(property.getProperty("lg.languages"), Locale.getDefault());
 
             FXMLLoader loader = new FXMLLoader(MainApplication.class.getResource("patient-view.fxml"), bundle);
@@ -118,25 +118,24 @@ public class MainController {
     @FXML
     void onAppointment(ActionEvent event) {
         logger.info("Была нажата кнопка onTicket");
-//        try {
-//          //  Locale.setDefault(Locale.FRANCE);
-//            ResourceBundle bundle = ResourceBundle.getBundle(property.getProperty("lg.languages"), Locale.getDefault());
-//
-//            FXMLLoader loader = new FXMLLoader(MainApplication.class.getResource("ticket-view.fxml"), bundle);
-//            Parent root = loader.load();
-//
-//            Stage addStage = new Stage();
-//            Scene scene = new Scene(root);
-//            addStage.setScene(scene);
-//            addStage.initModality(Modality.APPLICATION_MODAL);
-//            addStage.initOwner(MainApplication.getMainStage());
-//
-//            TicketController controller = loader.getController();
-//            controller.setAddStage(addStage);
-//
-//            addStage.show();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+        try {
+            ResourceBundle bundle = ResourceBundle.getBundle(property.getProperty("lg.languages"), Locale.getDefault());
+
+            FXMLLoader loader = new FXMLLoader(MainApplication.class.getResource("appointment-view.fxml"), bundle);
+            Parent root = loader.load();
+
+            Stage addStage = new Stage();
+            Scene scene = new Scene(root);
+            addStage.setScene(scene);
+            addStage.initModality(Modality.APPLICATION_MODAL);
+            addStage.initOwner(MainApplication.getMainStage());
+
+            AppointmentController controller = loader.getController();
+            controller.setAddStage(addStage);
+
+            addStage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

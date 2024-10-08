@@ -1,0 +1,68 @@
+07.10.2024 17:00:31.770 [main] INFO  c.e.l.MainApplication - Запуск приложения
+07.10.2024 17:00:31.870 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Успешное подключение к базе данных
+07.10.2024 17:00:32.224 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Главное окно приложения запущено
+07.10.2024 17:00:35.408 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Была нажата кнопка onRoute
+07.10.2024 17:00:35.417 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 17:00:35.417 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 17:00:35.499 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Выполнен запрос поиска по ID
+07.10.2024 17:00:35.503 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Таблица врачей заполнена и отсортирована по фио доктора
+07.10.2024 17:00:38.950 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Завершение работы приложения
+07.10.2024 18:30:24.785 [main] INFO  c.e.l.MainApplication - Запуск приложения
+07.10.2024 18:30:24.883 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Успешное подключение к базе данных
+07.10.2024 18:30:25.227 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Главное окно приложения запущено
+07.10.2024 18:30:26.226 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Была нажата кнопка onDoctor
+07.10.2024 18:30:26.241 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 18:30:26.242 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 18:30:26.316 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Выполнен запрос поиска по ID
+07.10.2024 18:30:26.336 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Таблица врачей заполнена и отсортирована по фио доктора
+07.10.2024 18:30:29.066 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Была нажата кнопка onTicket
+07.10.2024 18:30:29.069 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 18:30:29.070 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 18:30:29.071 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 18:30:29.072 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 18:30:29.072 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 18:30:29.072 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 18:30:29.090 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Выполнен запрос поиска по ID
+07.10.2024 18:30:29.093 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Выполнен запрос поиска по ID
+07.10.2024 18:30:29.095 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Выполнен запрос поиска по ID
+07.10.2024 18:30:29.096 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Таблица записей заполнена и отсортирована по фио доктора
+07.10.2024 18:30:31.106 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Была нажата кнопка onRoute
+07.10.2024 18:30:31.108 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 18:30:31.108 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 18:30:31.129 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Выполнен запрос поиска по ID
+07.10.2024 18:30:31.130 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Таблица врачей заполнена и отсортирована по фио доктора
+07.10.2024 18:30:39.660 [main] INFO  c.e.l.MainApplication - Запуск приложения
+07.10.2024 18:30:39.766 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Успешное подключение к базе данных
+07.10.2024 18:30:40.112 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Главное окно приложения запущено
+07.10.2024 18:37:03.869 [main] INFO  c.e.l.MainApplication - Запуск приложения
+07.10.2024 18:37:03.975 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Успешное подключение к базе данных
+07.10.2024 18:37:04.421 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Главное окно приложения запущено
+07.10.2024 18:37:05.727 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Завершение работы приложения
+07.10.2024 18:46:25.543 [main] INFO  c.e.l.MainApplication - Запуск приложения
+07.10.2024 18:46:25.698 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Успешное подключение к базе данных
+07.10.2024 18:46:26.306 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Главное окно приложения запущено
+07.10.2024 18:46:27.704 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Завершение работы приложения
+07.10.2024 19:00:34.998 [main] INFO  c.e.l.MainApplication - Запуск приложения
+07.10.2024 19:00:35.167 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Успешное подключение к базе данных
+07.10.2024 19:00:35.744 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Главное окно приложения запущено
+07.10.2024 19:00:36.881 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Была нажата кнопка onRoute
+07.10.2024 19:00:36.889 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 19:00:36.889 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 19:00:37.023 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Выполнен запрос поиска всех пациентов
+07.10.2024 19:00:37.029 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Таблица врачей заполнена и отсортирована по фио доктора
+07.10.2024 19:00:39.641 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Завершение работы приложения
+07.10.2024 19:04:12.799 [main] INFO  c.e.l.MainApplication - Запуск приложения
+07.10.2024 19:04:12.985 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Успешное подключение к базе данных
+07.10.2024 19:04:13.626 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Главное окно приложения запущено
+07.10.2024 19:04:16.512 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Была нажата кнопка onTicket
+07.10.2024 19:04:16.520 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 19:04:16.521 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 19:04:16.523 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 19:04:16.524 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 19:04:16.524 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 19:04:16.524 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Получены ресурсы
+07.10.2024 19:04:16.630 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Выполнен запрос поиска всех докторов
+07.10.2024 19:04:16.635 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Выполнен запрос поиска всех пациентов
+07.10.2024 19:04:16.639 [JavaFX Application Thread] DEBUG c.e.l.MainApplication - Выполнен запрос поиска всех записей на прием
+07.10.2024 19:04:16.642 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Таблица записей заполнена и отсортирована по фио доктора
+07.10.2024 19:04:19.155 [JavaFX Application Thread] INFO  c.e.l.MainApplication - Завершение работы приложения
