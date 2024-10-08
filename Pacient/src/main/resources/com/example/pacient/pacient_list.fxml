@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.example.pacient.PatientAppController">
+    <TableView fx:id="tableView" prefHeight="446.0" prefWidth="1606.0">
+        <columns>
+            <TableColumn fx:id="lastNameCol" prefWidth="94.40002745389938" text="Last Name" />
+            <TableColumn fx:id="firstNameCol" prefWidth="108.80001831054688" text="First Name" />
+            <TableColumn fx:id="middleNameCol" prefWidth="103.99998474121094" text="Middle Name" />
+            <TableColumn fx:id="nationalityCol" prefWidth="87.20001220703125" text="Nationality" />
+            <TableColumn fx:id="heightCol" prefWidth="66.39996337890625" text="Height" />
+            <TableColumn fx:id="weightCol" prefWidth="61.5999755859375" text="Weight" />
+            <TableColumn fx:id="birthDateCol" prefWidth="144.7999267578125" text="Birth Date" />
+            <TableColumn fx:id="medicalCardNumberCol" prefWidth="129.5999755859375" text="Medical Card Number" />
+            <TableColumn fx:id="ageCol" prefWidth="87.9998779296875" text="Age" />
+        </columns>
+    </TableView>
+</VBox>
